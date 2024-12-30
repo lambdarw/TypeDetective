@@ -1,4 +1,4 @@
-# IPD
+# IPD Model
 
 ## Overview
 
@@ -11,7 +11,7 @@ Figure 1: The framework of IPD.
 </div>
 
 
-### Dataset
+## Dataset
 We evaluate our method on the [Kaggle](https://www.kaggle.com/datasnaek/mbti-type) and [Pandora](https://psy.takelab.fer.hr/datasets/all) datasets.
 
 
@@ -25,8 +25,7 @@ pip install -r requirements.txt
 ```
 
 **Step2: Write a configuration file in yaml format**
-Users can easily configure the parameters of METER in a yaml file. 
-The path of the configuration file is IPD/config/config.yaml
+Users can easily configure the parameters of IPD in a yaml file. The path of the configuration file is IPD/config/config.yaml
 
 ```yaml
 openai:
