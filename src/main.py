@@ -64,15 +64,11 @@ def parse_args():
                         help='number of max len')
 
     # Model parameters
-    parser.add_argument('--model_dir', type=str,
-                        default='/nfs/huggingfacehub/models--bert-base-cased',
-                        # default='/nfs/huggingfacehub/models--roberta-base',
-                        # default='/nfs/huggingfacehub/models--albert-base-v2',
-                        # default='/nfs/huggingfacehub/models--xlnet-base-cased',
-                        # default='/nfs/huggingfacehub/roberta-large',
-                        # default='/mntc/huangxinhui/pretrained_models/models--bert-base-cased',
-                        # default='/home/huangxinhui/PersonalityDetection/data/MLM-data-preprocessing/roberta-model-kaggle',
-                        # default='/root/a_huangxinhui/pretrained_models/models--bert-base-cased',
+    parser.add_argument('--model_dir', type=str, 
+                        default='bert-base-cased',
+                        # default='roberta-base', 
+                        # default='albert-base-v2', 
+                        # default='xlnet-base-cased',
                         help='path to pre-trained model')
     parser.add_argument('--pretrain_type', type=str, default='bert',
                         choices=['bert', 'xlnet', 'roberta', 'albert', 'roberta-large'])
