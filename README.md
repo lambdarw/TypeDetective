@@ -1,13 +1,13 @@
-# IPD Model
+# TPD Model
 
 ## Overview
 
-IPD is an interpretable personality detection model on social media using Type Dynamics Theory, the framework of IPD is depicted in Figure 1.
+TPD is an interpretable personality detection model on social media using Type Dynamics Theory, the framework of TPD is depicted in Figure 1.
 <div align=center>
     <img src="figs/framework.png" width="600px">
 </div>
 <div align=center>
-Figure 1: The framework of IPD.
+Figure 1: The framework of TPD.
 </div>
 
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 **Step2: Write a configuration file in yaml format**
-Users can easily configure the parameters of IPD in a yaml file. The path of the configuration file is IPD/config/config.yaml
+Users can easily configure the parameters of TPD in a yaml file. The path of the configuration file is TPD/config/config.yaml
 
 ```yaml
 openai:
@@ -43,7 +43,7 @@ python src/main.py
 ```
 
 ## Citation
-Please cite our repository if you use IPD in your work.
+Please cite our repository if you use TPD in your work.
 ```bibtex
 
 ```
