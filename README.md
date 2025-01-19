@@ -4,7 +4,7 @@
 
 TPD is an interpretable personality detection model on social media using Type Dynamics Theory, the framework of TPD is depicted in Figure 1.
 <div align=center>
-    <img src="figs/framework.png" width="600px">
+    <img src="framework.png" width="450px">
 </div>
 <div align=center>
 Figure 1: The framework of TPD.
