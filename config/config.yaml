@@ -1,0 +1,7 @@
+deepseek:
+  api_key: #your key
+  base_url: https://api.deepseek.com
+  temperature: 0.2
+  max_tokens: 2048
+prompts:
+  profiling_generation: config/prompts.yaml
