@@ -28,11 +28,11 @@ pip install -r requirements.txt
 Users can easily configure the parameters of TypeDetective in a yaml file. The path of the configuration file is ./config/config.yaml
 
 ```yaml
-openai:
-  api_key: # your_openai_API_key
-  base_url: # url
-  temperature: 0.2  
-  max_tokens: 1024
+deepseek:
+  api_key: # your_deepseek_API_key
+  base_url: https://api.deepseek.com
+  temperature: 0.2
+  max_tokens: 2048
 prompts:
   llm_prompt: prompts/prompt.yaml
 ```
