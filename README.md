@@ -1,13 +1,13 @@
-# TPD Model
+# TypeDetective Model
 
 ## Overview
 
-TPD is an interpretable personality detection model on social media using Type Dynamics Theory, the framework of TPD is depicted in Figure 1.
+TypeDetective is an interpretable personality detection model on social media using Type Dynamics Theory, the framework of TypeDetective is depicted in Figure 1.
 <div align=center>
     <img src="framework.png" width="450px">
 </div>
 <div align=center>
-Figure 1: The framework of TPD.
+Figure 1: The framework of TypeDetective.
 </div>
 
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 **Step2: Write a configuration file in yaml format**
-Users can easily configure the parameters of TPD in a yaml file. The path of the configuration file is TPD/config/config.yaml
+Users can easily configure the parameters of TypeDetective in a yaml file. The path of the configuration file is ./config/config.yaml
 
 ```yaml
 openai:
@@ -43,7 +43,7 @@ python src/main.py
 ```
 
 ## Citation
-Please cite our repository if you use TPD in your work.
+Please cite our repository if you use TypeDetective in your work.
 ```bibtex
 
 ```
