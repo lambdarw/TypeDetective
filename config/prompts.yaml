@@ -1,0 +1,8 @@
+llm_prompt:
+  user: |-
+    Please analyze how your personality traits are reflected in your social interactions. You are an [MBTIType], and the following are your most representative posts for each of the MBTI traits (segmented by ||): 
+    I (Introversion): traitPosts[0]
+    N (Intuition): traitPosts[1]
+    F (Feeling): traitPosts[2]
+    P (Perceiving): traitPosts[3]
+    Output:
