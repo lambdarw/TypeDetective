@@ -2,7 +2,7 @@
 
 ## Overview
 
-TypeDetective is an interpretable personality detection model on social media using Type Dynamics Theory, the framework of TypeDetective is depicted in Figure 1.
+TypeDetective is an interpretable personality detection model on social media driven by Type Dynamics Theory. The framework of TypeDetective is depicted in Figure 1, illustrated using an example of the ENFP personality.
 <div align=center>
     <img src="framework.png" width="450px">
 </div>
