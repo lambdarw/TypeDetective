@@ -1,4 +1,4 @@
-# TypeDetective Model
+# TypeDetective
 
 ## Overview
 
