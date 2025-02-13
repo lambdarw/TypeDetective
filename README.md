@@ -34,7 +34,7 @@ deepseek:
   temperature: 0.2
   max_tokens: 2048
 prompts:
-  llm_prompt: prompts/prompt.yaml
+  llm_prompt: config/prompts.yaml
 ```
 
 **Step3: Run with the code**
